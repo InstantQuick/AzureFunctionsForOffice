@@ -1,0 +1,19 @@
+﻿{
+  "WorkbookUrl": "https://github.com/InstantQuick/AzureFunctionsForOffice/blob/master/AzureFunctionsForOffice.Examples/ExcelMerge/DemoTemplate.xlsx?raw=true",
+  "FileName": "example.xlsx",
+  "NamedCellValues": {
+    "Name": "Doug Ware",
+    "Quest": "Demo the Azure Function!"
+  },
+  "Worksheets": {
+    "Detail": {
+      "Tables": {
+        "DetailTable": [
+          [ "Apples", "1", "1.50" ],
+          [ "Plums", "4", "0.66" ],
+          [ "Pears", "2", "2.00" ]
+        ]
+      }
+    }
+  }
+}
