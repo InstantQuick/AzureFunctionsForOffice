@@ -8,7 +8,7 @@
         <a href="#top">Back to top</a>
       </span>
       {{{_appFooter}}}
-      {{^_appFooter}}<span>Copyright © 2016 <a target="_blank" href="http://www.instantquick.com/">InstantQuick</a><br><a target="_blank" href="https://github.com/InstantQuick/AzureFunctionsForOffice">View project on <strong>Github</strong></a></span>{{/_appFooter}}
+      {{^_appFooter}}<span>Copyright © 2018 <a target="_blank" href="http://www.instantquick.com/">Doug Ware</a><br><a target="_blank" href="https://github.com/InstantQuick/AzureFunctionsForOffice">View project on <strong>Github</strong></a></span>{{/_appFooter}}
     </div>
   </div>
 </footer>
