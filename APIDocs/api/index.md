@@ -1,13 +1,7 @@
 # API Documentation
 
 ## Functions
-* [AppLaunch](AzureFunctionsForOffice.Functions.AppLaunchHandler.html)
-* [CreateCredentialToken](AzureFunctionsForOffice.Functions.CreateCredentialTokenHandler.html)
-* [EventDispatch](AzureFunctionsForOffice.Functions.EventDispatchHandler.html)
-* [GetACSAccessTokens](AzureFunctionsForOffice.Functions.GetACSAccessTokensHandler.html)
-* [ValidateCredentialToken](AzureFunctionsForOffice.Functions.ValidateCredentialTokenHandler.html)
+* [ExcelExtract](AzureFunctionsForOffice.Functions.ExcelExtractHandler.html)
+* [ExcelMerge](AzureFunctionsForOffice.Functions.ExcelMergeHandler.html)
+* [WordMerge](AzureFunctionsForOffice.Functions.WordMergeHandler.html)
 
-## Supporting Namespaces
-* [AzureFunctionsForOffice.Common](AzureFunctionsForOffice.Common.html)
-* [AzureFunctionsForOffice.Core](AzureFunctionsForOffice.Core.html)
-* [AzureFunctionsForOffice.Core.Security](AzureFunctionsForOffice.Core.Security.html)

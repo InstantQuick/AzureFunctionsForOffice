@@ -7,4 +7,9 @@ This initial version consists of three functions for working with Excel and Word
 * Excel Merge - Merges data in JSON format with an Excel document given as a URL or as a Base64 encoded string
 * Word Merge - Merges data in JSON format with an Word document given as a URL or as a Base64 encoded string
 
-## Documentation is here: [Azure Functions for Office](https://afodocs.blob.core.windows.net/docs/index.html)
+## Amazing Samples
+* [Excel Extract](https://afodocs.blob.core.windows.net/docs/articles/ExcelExtract.html)
+* [Excel Merge](https://afodocs.blob.core.windows.net/docs/articles/ExcelMerge.html)
+* [Word Merge](https://afodocs.blob.core.windows.net/docs/articles/WordMerge.html)
+
+## The rest of the documentation is here: [Azure Functions for Office](https://afodocs.blob.core.windows.net/docs/index.html)

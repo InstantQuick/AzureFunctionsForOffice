@@ -16,7 +16,7 @@ namespace AzureFunctionsForOffice.Host
     public static class ExcelExtract
     {
         [FunctionName("ExcelExtract")]
-        public static async Task<HttpResponseMessage> Run([HttpTrigger(AuthorizationLevel.Function, "post", Route = "ExcelExtract")]HttpRequestMessage req, TraceWriter log)
+        public static async Task<HttpResponseMessage> Run([HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = "ExcelExtract")]HttpRequestMessage req, TraceWriter log)
         {
             log.Info("C# HTTP trigger function processed a request.");
 
