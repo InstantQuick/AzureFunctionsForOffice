@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E6A576C8-2B4B-420E-AC07-323B3E0690E4}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>APIDocs</RootNamespace>
+    <AssemblyName>APIDocs</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="custom_template\common.js" />
+    <Content Include="custom_template\conceptual.extension.js" />
+    <Content Include="custom_template\conceptual.html.primary.js" />
+    <Content Include="custom_template\DocFx5050Logo.png" />
+    <Content Include="custom_template\favicon.ico" />
+    <Content Include="custom_template\fonts\fontawesome-webfont.svg" />
+    <Content Include="custom_template\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="custom_template\gulpfile.js" />
+    <Content Include="custom_template\ManagedReference.common.js" />
+    <Content Include="custom_template\ManagedReference.extension.js" />
+    <Content Include="custom_template\ManagedReference.html.primary.js" />
+    <Content Include="custom_template\RestApi.common.js" />
+    <Content Include="custom_template\RestApi.extension.js" />
+    <Content Include="custom_template\RestApi.html.primary.js" />
+    <Content Include="custom_template\styles\docfx.css" />
+    <Content Include="custom_template\styles\docfx.js" />
+    <Content Include="custom_template\styles\docfx.vendor.css" />
+    <Content Include="custom_template\styles\docfx.vendor.js" />
+    <Content Include="custom_template\styles\font-awesome.css" />
+    <Content Include="custom_template\styles\font-awesome.min.css" />
+    <Content Include="custom_template\styles\lunr.min.js" />
+    <Content Include="custom_template\styles\main.css" />
+    <Content Include="custom_template\styles\main.js" />
+    <Content Include="custom_template\styles\search-worker.js" />
+    <Content Include="custom_template\toc.html.js" />
+    <Content Include="images\AppLaunchFlow.png" />
+    <Content Include="images\AppLaunchFunction2.png" />
+    <Content Include="images\AppLaunchManifest.png" />
+    <Content Include="images\AppSettings.png" />
+    <Content Include="_site\articles\AppLaunch.html" />
+    <Content Include="_site\articles\EventDispatch.html" />
+    <Content Include="_site\articles\intro.html" />
+    <Content Include="_site\articles\SPAppManifest.html" />
+    <Content Include="_site\articles\toc.html" />
+    <Content Include="_site\DocFx5050Logo.png" />
+    <Content Include="_site\favicon.ico" />
+    <Content Include="_site\fonts\fontawesome-webfont.svg" />
+    <Content Include="_site\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="_site\images\AppLaunchFunction2.png" />
+    <Content Include="_site\images\AppLaunchManifest.png" />
+    <Content Include="_site\images\DocFx5050Logo.png" />
+    <Content Include="_site\index.html" />
+    <Content Include="_site\styles\docfx.css" />
+    <Content Include="_site\styles\docfx.js" />
+    <Content Include="_site\styles\docfx.vendor.css" />
+    <Content Include="_site\styles\docfx.vendor.js" />
+    <Content Include="_site\styles\font-awesome.css" />
+    <Content Include="_site\styles\font-awesome.min.css" />
+    <Content Include="_site\styles\lunr.min.js" />
+    <Content Include="_site\styles\main.css" />
+    <Content Include="_site\styles\main.js" />
+    <Content Include="_site\styles\search-worker.js" />
+    <Content Include="_site\toc.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="api\.gitignore" />
+    <None Include="api\.manifest" />
+    <None Include="api\index.md" />
+    <None Include="articles\intro.md" />
+    <None Include="articles\toc.yml" />
+    <None Include="build_documentation.ps1" />
+    <None Include="custom_template\conceptual.html.primary.tmpl" />
+    <None Include="custom_template\fonts\fontawesome-webfont.eot" />
+    <None Include="custom_template\fonts\fontawesome-webfont.ttf" />
+    <None Include="custom_template\fonts\fontawesome-webfont.woff" />
+    <None Include="custom_template\fonts\fontawesome-webfont.woff2" />
+    <None Include="custom_template\fonts\FontAwesome.otf" />
+    <None Include="custom_template\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="custom_template\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="custom_template\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="custom_template\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="custom_template\ManagedReference.html.primary.tmpl" />
+    <None Include="custom_template\partials\affix.tmpl.partial" />
+    <None Include="custom_template\partials\breadcrumb.tmpl.partial" />
+    <None Include="custom_template\partials\class.header.tmpl.partial" />
+    <None Include="custom_template\partials\class.tmpl.partial" />
+    <None Include="custom_template\partials\classSubtitle.tmpl.partial" />
+    <None Include="custom_template\partials\enum.tmpl.partial" />
+    <None Include="custom_template\partials\footer.tmpl.partial" />
+    <None Include="custom_template\partials\head.tmpl.partial" />
+    <None Include="custom_template\partials\li.tmpl.partial" />
+    <None Include="custom_template\partials\logo.tmpl.partial" />
+    <None Include="custom_template\partials\namespace.tmpl.partial" />
+    <None Include="custom_template\partials\namespaceSubtitle.tmpl.partial" />
+    <None Include="custom_template\partials\navbar.tmpl.partial" />
+    <None Include="custom_template\partials\rest.child.tmpl.partial" />
+    <None Include="custom_template\partials\rest.tmpl.partial" />
+    <None Include="custom_template\partials\scripts.tmpl.partial" />
+    <None Include="custom_template\partials\searchResults.tmpl.partial" />
+    <None Include="custom_template\partials\title.tmpl.partial" />
+    <None Include="custom_template\partials\toc.tmpl.partial" />
+    <None Include="custom_template\RestApi.html.primary.tmpl" />
+    <None Include="custom_template\search-stopwords.json" />
+    <None Include="custom_template\toc.html.tmpl" />
+    <None Include="custom_template\token.json" />
+    <None Include="docfx.json" />
+    <None Include="docFx_binaries\docfx.zip" />
+    <None Include="filterConfig.yml" />
+    <None Include="index.md" />
+    <None Include="README.md" />
+    <None Include="toc.yml" />
+    <None Include="_site\fonts\fontawesome-webfont.eot" />
+    <None Include="_site\fonts\fontawesome-webfont.ttf" />
+    <None Include="_site\fonts\fontawesome-webfont.woff" />
+    <None Include="_site\fonts\fontawesome-webfont.woff2" />
+    <None Include="_site\fonts\FontAwesome.otf" />
+    <None Include="_site\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="_site\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="_site\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="_site\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="_site\index.json" />
+    <None Include="_site\manifest.json" />
+    <None Include="_site\search-stopwords.json" />
+    <None Include="_site\xrefmap.yml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="apidoc\" />
+    <Folder Include="_site\api\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

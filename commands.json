@@ -1,0 +1,9 @@
+{
+  "commands": {
+    "build_documentation": {
+      "fileName": "powershell.exe",
+      "workingDirectory": ".",
+      "arguments": "-ExecutionPolicy Bypass -NonInteractive -File APIDocs\\build_documentation.ps1"
+    }
+  }
+}

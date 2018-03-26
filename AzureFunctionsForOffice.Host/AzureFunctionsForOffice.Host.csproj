@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\net461\AzureFunctionsForOffice.Host.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Properties\PublishProfiles\affodev1 - Web Deploy.pubxml" />
+  </ItemGroup>
+  <ItemGroup>    
+    <PackageReference Include="ClosedXML" Version="0.91.0" />    
+    <PackageReference Include="DocumentFormat.OpenXml" Version="2.7.2" />    
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.4" />    
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.4" />    
+    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="1.0.9" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AzureFunctionsForOffice.Functions\AzureFunctionsForOffice.Functions.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Configuration" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="host.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="local.settings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+    </None>
+  </ItemGroup>
+</Project>

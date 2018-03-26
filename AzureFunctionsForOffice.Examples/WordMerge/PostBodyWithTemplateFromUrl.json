@@ -1,0 +1,30 @@
+﻿{
+  "DocumentTemplateUrl": "https://YOURSTORAGEHERE/DemoTemplate.docx",
+  "FieldData": { "Name": "Doug Ware" },
+  "RepeatingSectionData": {
+    "Colors": [
+      { "Color": "Blue" },
+      { "Color": "Red" },
+      { "Color": "Yellow" },
+      { "Color": "Green" },
+      { "Color": "Purple" }
+    ],
+    "TableRows": [
+      {
+        "ItemName": "Apples",
+        "ItemWeight": "10",
+        "ItemValue": "$11.11"
+      },
+      {
+        "ItemName": "Bears",
+        "ItemWeight": "800",
+        "ItemValue": "$2111.11"
+      },
+      {
+        "ItemName": "Monkeys",
+        "ItemWeight": "3.6",
+        "ItemValue": "$511"
+      }
+    ]
+  }
+}
