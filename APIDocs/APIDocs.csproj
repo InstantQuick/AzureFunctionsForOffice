@@ -91,8 +91,12 @@
     <None Include="api\.gitignore" />
     <None Include="api\.manifest" />
     <None Include="api\index.md" />
+    <None Include="articles\ExcelExtract.md" />
+    <None Include="articles\ExcelMerge.md" />
     <None Include="articles\intro.md" />
+    <None Include="articles\KeepWarm.md" />
     <None Include="articles\toc.yml" />
+    <None Include="articles\WordMerge.md" />
     <None Include="build_documentation.ps1" />
     <None Include="custom_template\conceptual.html.primary.tmpl" />
     <None Include="custom_template\fonts\fontawesome-webfont.eot" />
